@@ -1,0 +1,16 @@
+TIME="MEDIUM"
+AUTHOR = "Joy Xu <xuwei04@google.com>"
+DOC = """
+
+this test will run some server test using phoronix test suite.
+
+More information about phoronix test can be found here:
+http://www.phoronix-test-suite.com/
+
+"""
+NAME = 'phronixbench'
+TEST_CLASS = 'kernel'
+TEST_CATEGORY = 'Functional'
+TEST_TYPE = 'client'
+
+job.run_test('phoronixbench')

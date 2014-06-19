@@ -1,0 +1,38 @@
+[Priority One - P1]:
+
+pts/apache [System/Apache] - Completes (pts=3.2.0-1, 11.10, 2.6.38-1309-omap4)
+pts/java-scimark2 [Processor/Java] - Partial / tests 2,4,5 fail to run (pts=3.2.0-1, 11.10, 2.6.38-1309-omap4)
+pts/nginx [System/Nginx] - Pending
+pts/network-loopback [Network] - Pending
+pts/openssl [Processor] - FAILS / fails install (pts=3.2.0-1, 11.10, 2.6.38-1309-omap4)
+pts/pgbench [System/PostgreSQL] - FAILS / fails install (pts=3.2.0-1, 11.10, 2.6.38-1309-omap4)
+pts/phpbench [System/PHP] - Completes (pts=3.2.0-1, 11.10, 2.6.38-1309-omap4)
+pts/tiobench [Disk] - Completes (pts=3.2.0-1, 11.10, 2.6.38-1309-omap4)
+pts/pybench [System/Python] - Pending
+pts/pyopencl [System/Python] - Pending
+
+[Priority Two - P2]:
+
+pts/aio-stress [Disk] - FAILS / fails install (pts=3.2.0-1, 11.10, 2.6.38-1309-omap4)
+pts/dbench [Disk] - Completes (pts=3.2.0-1, 11.10, 2.6.38-1309-omap4)
+pts/cachebench [Processor] - Pending
+pts/fio [Disk] - FAILS / fails install (pts=3.2.0-1, 11.10, 2.6.38-1309-omap4)
+pts/fs-mark [Disk] - Completes (pts=3.2.0-1, 11.10, 2.6.38-1309-omap4)
+pts/hdparm-read [Disk] - Pending
+pts/iozone [Disk] - Completes (pts=3.2.0-1, 11.10, 2.6.38-1309-omap4)
+
+[Priority Three - P3]:
+
+pts/idle [Disk] - Pending
+pts/idle-power-usage [Disk] - Pending
+pts/postmark [Disk] - Pending
+
+[Other - Misc]:
+
+pts/povray [Processor] - Pending
+pts/ramspeed [Memory] - Pending
+pts/scimark2 [Processor] - Pending
+pts/sqlite [Disk] - Pending
+pts/stream [Memory] - Pending
+pts/stresscpu2 [Processor] - Pending
+pts/systester [Processor] - FAILS / fails install (pts=3.2.0-1, 11.10, 2.6.38-1309-omap4)
